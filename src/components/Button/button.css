@@ -1,0 +1,119 @@
+.dd-button {
+  color: #fff;
+  font-size: 16px;
+  border-radius: 31px;
+  cursor: pointer;
+  border: none;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+.dd-button-small {
+  padding: 0 16px;
+  height: 40px;
+}
+.dd-button-medium {
+  padding: 0 16px;
+  height: 40px;
+}
+.dd-button-large {
+  height: 48px;
+  padding: 0 24px;
+}
+.dd-button-primary {
+  background-color: #ff3366;
+}
+.dd-button-primary:hover {
+  background-color: #ff1c55;
+}
+.dd-button-primary:active {
+  background-color: #e62e5c;
+}
+.dd-button-secondary {
+  background-color: #2db2ba;
+}
+.dd-button-secondary:hover {
+  background-color: #13bfca;
+}
+.dd-button-secondary:active {
+  background-color: #279ca3;
+}
+
+.dd-button-tertiarygray {
+  color: #4d4d4d;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+}
+.dd-button-tertiarygray svg {
+  fill: #4d4d4d;
+}
+.dd-button-tertiarygray:hover {
+  background: #e0e0e0;
+}
+.dd-button-tertiarygray:active {
+  background: #C4C4C4;
+}
+.dd-button-tertiarypink {
+  color: #4d4d4d;
+  border: 1px solid #ff3366;
+  background: #ffffff;
+}
+.dd-button-tertiarypink svg {
+  fill: #ff3366;
+}
+.dd-button-tertiarypink:hover {
+  background: #ffc1d1;
+  border: 1px solid #ffc1d1;
+}
+.dd-button-tertiarypink:active {
+  background: #e62e5c;
+  border: 1px solid #e62e5c;
+  color: #fff;
+}
+.dd-button-tertiarypink:active svg {
+  fill: #fff;
+}
+.dd-button-tertiaryteal {
+  border: 1px solid #2db2ba;
+  background: #ffffff;
+  color: #4d4d4d;
+}
+.dd-button-tertiaryteal svg {
+  fill: #2db2ba;
+}
+.dd-button-tertiaryteal:hover {
+  background: #2db2ba4d;
+  border: none;
+}
+
+.dd-button-tertiaryteal:active {
+  background-color: #279ca3;
+  border: none;
+  color: #fff;
+}
+.dd-button-tertiaryteal:active svg {
+  fill: #fff;
+}
+
+.dd-button-round {
+  border: solid 1px #d2d2d9;
+  border-radius: 22px;
+}
+
+@media (max-width: 768px) {
+  .dd-button-small {
+    padding: 0 12px;
+    height: 32px;
+  }
+  .dd-button-medium {
+    padding: 0 16px;
+    height: 40px;
+  }
+  .dd-button-large {
+    height: 48px;
+    padding: 0 24px;
+  }
+}
