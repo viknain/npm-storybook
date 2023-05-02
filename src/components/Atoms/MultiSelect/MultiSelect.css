@@ -1,0 +1,23 @@
+.selectAllContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.selectAllContainer input {
+    cursor: pointer;
+}
+
+.selectAllContainer li {
+    text-transform: capitalize;
+}
+
+.menuItemsContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.menuItemsContainer input {
+    cursor: pointer;
+}

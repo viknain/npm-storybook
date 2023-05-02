@@ -1,0 +1,126 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+    height: 64px;
+    position: relative;
+    box-shadow: 0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
+
+.navItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.navItem div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.headerLogo {
+    max-width: 250px;
+}
+
+.navItem a,
+.sideMenu a {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    color: #77787b;
+    text-decoration: none;
+}
+
+.sideMenu {
+    text-align: center;
+    background-color: #f7f7f7;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    z-index: 99;
+    transition: transform 225ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+    max-width: 300px;
+    width: 100%;
+}
+
+.main-container {
+    background-color: #f7f7f7;
+}
+
+.menuIcon {
+    display: none;
+}
+
+.sideMenuLogo img,
+.headerLogo img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.sideMenuItem {
+    border-top: 1px solid #000;
+    margin: 0;
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.sideMenu div a {
+    padding: 12px;
+}
+
+.sideMenu div a .active {
+    background: #27c1f1;
+    color: #fff;
+}
+
+.closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    stroke: #77787b;
+    transition: all 5s ease-out;
+}
+
+@media (max-width:991px) {
+    .navItem {
+        display: none;
+    }
+
+    .headerLogo {
+        max-width: 180px;
+        margin: 0 auto;
+    }
+
+    .menuIcon {
+        display: flex;
+        cursor: pointer;
+    }
+
+    .sideMenuLogo {
+        padding: 10px 0;
+        max-width: 250px;
+        margin: 0 auto;
+    }
+
+    .sideMenuLogo {
+        max-width: 180px;
+        margin-top: 25px;
+    }
+}
+
+@media (min-width:991px) {
+    .sideMenu {
+        display: none;
+    }
+}

@@ -1,0 +1,61 @@
+.inputWrapper {
+  position: relative;
+}
+
+.inputWrapper .inputMedium {
+  font-size: 18px;
+}
+
+.inputWrapper .inputLarge {
+  font-size: 20px;
+}
+
+ .inputWrapper .inputFilled {
+  background-color: #fff;
+  border: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.inputWrapper label {
+  position: absolute;
+  font-size: 1rem;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+  color: gray;
+  padding: 0 0.3rem;
+  margin: 0 0.5rem;
+  transition: .1s ease-out;
+  transform-origin: left top;
+  pointer-events: none;
+  font-family: sans-serif;
+  display: inline;
+  width: fit-content !important;
+}
+
+.inputWrapper input {
+  font-size: 14px;
+  font-family: sans-serif;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 1rem 0.7rem;
+  color: gray;
+  transition: 0.1s ease-out;
+}
+
+.inputWrapper input:focus {
+  border-color: #27c1f1;
+}
+
+.inputWrapper input:focus+label {
+  color: #27c1f1;
+  top: 10px;
+  transform: translateY(-50%) scale(.9);
+}
+
+.inputWrapper input:not(:placeholder-shown)+label {
+  top: 10px;
+  transform: translateY(-50%) scale(.9);
+}

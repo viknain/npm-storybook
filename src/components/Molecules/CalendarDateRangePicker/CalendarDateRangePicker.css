@@ -1,0 +1,142 @@
+* {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.rdrDateRangePickerWrapper .rdrDateRangeWrapper {
+    box-shadow: rgb(0 0 0 / 20%) 0px 5px 5px -3px, rgb(0 0 0 / 14%) 0px 8px 10px 1px, rgb(0 0 0 / 12%) 0px 3px 14px 2px;
+    background-color: rgb(255, 255, 255);
+    max-width: 560px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.datePickerWrapper .rdrDefinedRangesWrapper {
+    display: none;
+}
+
+.rdrDays .rdrDayDisabled {
+    background-color: #fff;
+}
+
+.rdrMonth .rdrMonthName {
+    text-align: center;
+    color: #27c1f1;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.rdrWeekDays .rdrWeekDay {
+    color: #FFB703;
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+
+.rdrDays .rdrDay span {
+    color: #000;
+    /* padding: 15px; */
+}
+
+.rdrCalendarWrapper .rdrMonths {
+    padding: 0 10px;
+}
+
+button.rdrNextPrevButton.rdrPprevButton {
+    background: transparent;
+}
+
+.rdrDayStartOfMonth .rdrInRange,
+.rdrDayStartOfMonth .rdrEndEdge,
+.rdrDayStartOfWeek .rdrInRange,
+.rdrDayStartOfWeek .rdrEndEdge {
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+}
+
+.rdrDayEndOfMonth .rdrInRange,
+.rdrDayEndOfMonth .rdrStartEdge,
+.rdrDayEndOfWeek .rdrInRange,
+.rdrDayEndOfWeek .rdrStartEdge {
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+}
+
+.datePickerWrapper {
+    display: inline-block;
+}
+
+.dateInputWrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.dateInputWrapper .inputWrapper label {
+    width: 100% !important;
+    max-width: 55px;
+    top: 3% !important;
+    left: 9% !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+}
+
+.dateInputWrapper .inputWrapper input {
+    padding: 13.5px 12px;
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: none;
+}
+
+.dateInputWrapper .dateInputWrapperInner {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.dateInputWrapper .dateInputWrapperInnerSection {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.dateInputWrapper .inputWrapper {
+    padding: 0px !important;
+    width: 100%;
+    max-width: 120px;
+}
+
+.dateInputWrapper .inputWrapper input:focus {
+    border-color: gray;
+}
+
+.dateInputWrapper .inputWrapper input:focus+label {
+    color: gray;
+}
+
+.dateInputWrapper p {
+    padding: 13.5px 0px;
+    border: 1px solid gray;
+    margin: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+.dateInputWrapperInner {
+    border-right: 0px !important;
+    border-radius: 5px 0px 0px 5px;
+    width: 100%;
+}
+
+.dateInputWrapperInnerSection {
+    border-left: 0px !important;
+    border-radius: 0px 5px 5px 0px;
+    width: 100%;
+}
+
+.dateInputWrapper .inputLabel {
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}

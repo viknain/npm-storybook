@@ -1,0 +1,30 @@
+.radioMain p {
+    margin: 0 0 10px;
+    color: rgb(119, 120, 123);
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+}
+
+.radioBtn {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.radioBtn input {
+    margin: 8px 0;
+    cursor: pointer;
+    color: rgb(119, 120, 123);
+}
+
+.radioBtn label {
+    color: rgb(119, 120, 123);
+    font-size: 14px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+input[type='radio'] {
+    accent-color: #77787b;
+}

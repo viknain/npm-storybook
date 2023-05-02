@@ -1,0 +1,11 @@
+.navLink {
+    font-size: 16px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #77787b;
+    text-transform: capitalize;
+}
+
+.navLink:hover {
+    color: #27c1f1;
+}

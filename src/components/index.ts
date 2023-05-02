@@ -1,7 +1,7 @@
-export { default as DDButton } from './stories/Button.stories';
-export { default as DDButtonWithIcon } from './stories/ButtonWithIcon.stories';
-export { default as DDIcon } from './stories/Icon.stories';
-export { default as DDInput } from './stories/Input.stories';
-export { default as DDInputWithIcon } from './stories/InputWithIcon.stories';
-export { default as DDSelect } from './stories/Dropdown.stories';
-export { default as DDTraditionalToolTip } from './stories/TraditionalToolTip.stories';
+export { default as Button } from './Atoms/Button/Button.stories';
+export { default as ButtonWithIcon } from './Molecules/ButtonWithIcon/ButtonWithIcon.stories';
+export { default as Icon } from './Atoms/Icon/Icon.stories';
+export { default as Input } from './Atoms/Input/Input.stories';
+export { default as InputWithIcon } from './Molecules/InputWithIcon/InputWithIcon.stories';
+export { default as Dropdown } from './Atoms/Dropdown/Dropdown.stories';
+export { default as TraditionalToolTip } from './Atoms/TraditionalToolTip/TraditionalToolTip.stories';

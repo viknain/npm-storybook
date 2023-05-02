@@ -1,0 +1,97 @@
+.tableContainer {
+    width: 100%;
+}
+
+.tableContent {
+    border-radius: 6px !important;
+    scrollbar-width: thin !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.tableContent::-webkit-scrollbar {
+    height: 8px;
+    background-color: #00000026;
+}
+
+.tableContent::-webkit-scrollbar-thumb {
+    background-color: #a8a8a8;
+    border-radius: 10px;
+}
+
+.tableContainer .rdt_TableHead .rdt_TableHeadRow .rdt_TableCol {
+    padding: 18px 20px;
+    background: #77787b;
+    color: #fff;
+    font-weight: 700;
+    opacity: 0.7;
+    font-size: 16px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 24px;
+}
+
+.tableContainer .rdt_TableHead .rdt_TableHeadRow .rdt_TableCol:last-child,
+.tableContainer .rdt_TableRow .rdt_TableCell:last-child {
+    border-right: none;
+}
+
+.tableContainer .rdt_TableRow .rdt_TableCell {
+    font-size: 14px;
+    padding: 20px;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.tableContainer .rdt_TableHead .rdt_TableHeadRow .rdt_TableCol .rdt_TableCol_Sortable {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tableContainer .rdt_TableHead .rdt_TableHeadRow .rdt_TableCol .rdt_TableCol_Sortable svg {
+    display: block;
+    width: 24px;
+    height: 24px;
+    stroke: #fff ;
+    fill: none;
+}
+
+.tableContainer .rdt_TableHead .rdt_TableHeadRow .rdt_TableCol .rdt_TableCol_Sortable svg:hover {
+    stroke: #fff;
+}
+
+.tableContainer .rdt_TableBody .rdt_TableRow:nth-child(odd) {
+    background: #fff;
+}
+
+.tableContainer .rdt_TableBody .rdt_TableRow:nth-child(even) {
+    background: #f1f1f1;
+}
+
+.tableContainer .fsBPnz:hover {
+    opacity: 1 ;
+}
+
+.tableContainer nav.sc-iJnaPW.gKbhqU.rdt_Pagination {
+    gap: 10px;
+}
+
+.tableContainer .lmSJmf,
+.tableContainer .bueHSC {
+    margin: 0 ;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.tableContainer .sc-lllmON.gMliOo {
+    border: 1px solid #77787b ;
+    border-radius: 4px;
+}
+
+.tableContainer select.sc-cwSeag.jaZsat {
+    outline: none;
+    border-color: transparent ;
+    min-width: 60px;
+}

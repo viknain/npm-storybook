@@ -1,0 +1,55 @@
+.buttonWithIcon {
+  background-color: #27c1f1;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.buttonPrimary {
+  background-color: #27c1f1;
+}
+
+.buttonPrimary div svg {
+  fill: #fff;
+}
+
+.buttonSecondary {
+  background-color: #272a2b;
+}
+
+.buttonSecondary svg {
+  fill: #fff;
+}
+
+.buttonOutlined {
+  border: 2px solid #27c1f1;
+  background-color: #fff;
+  color: #27c1f1
+}
+
+.buttonOutlined svg {
+  fill: #27c1f1;
+}
+
+.buttonSmall {
+  font-size: 14px;
+}
+
+.buttonMedium {
+  font-size: 18px;
+}
+
+.buttonLarge {
+  font-size: 20px;
+}
+
+.iconStyle{
+  width: 24px;
+  height: 24px;
+}

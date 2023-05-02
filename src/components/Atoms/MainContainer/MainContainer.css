@@ -1,0 +1,12 @@
+.contentWrapper{
+    padding: 30px;
+    height: calc(100vh - 178px);
+    overflow-y: auto;
+}
+
+
+@media(max-width: 991px) {
+    .contentWrapper {
+        height: "100%"
+    }
+}

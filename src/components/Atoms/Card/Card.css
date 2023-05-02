@@ -1,0 +1,65 @@
+.mainCard{
+    border-radius: 4px;
+    box-shadow: rgb(165 165 165 / 30%) 1px 3px 10px 2px;
+    overflow: hidden;
+    padding: 20px 12px 12px;
+    max-width: 320px;
+    width: 100%;
+    text-align: center;
+}
+
+.cardHeader {
+    padding: 12px 0 16px;
+}
+
+.cardHeader h4 {
+    margin: 0;
+    color: rgb(0, 0, 0);
+    font: 600 18px/24px sans-serif;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.cardHeader h4:nth-of-type(2) {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(119, 120, 123);
+    margin-top: 5px;
+}
+
+.cardBody {
+    padding: 0 10px;
+}
+
+.cardContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    width: 100%;
+    gap: 10px;
+}
+
+.cardContent h6 {
+    margin: 0;
+    font: 600 14px/20px sans-serif;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: left;
+    max-width: 120px;
+    width: 100%;
+    overflow: hidden;
+    color: rgb(119, 120, 123);
+}
+
+.cardContent p {
+    margin: 0;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100px;
+    width: 100%;
+    overflow: hidden;
+    color: rgb(119, 120, 123);
+    font: normal 14px/20px sans-serif;
+}
