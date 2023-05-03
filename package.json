@@ -1,18 +1,23 @@
 {
-  "name": "mobilityware",
-  "version": "1.0.0",
+  "name": "custom-ui-library-storybook",
+  "version": "1.0.2",
   "main": "dist/index.js",
-  "author": "Mobilityware",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "author": "viknain09 vik.nain009@gmail.com",
   "license": "MIT",
   "scripts": {
     "start": "start-storybook -p 6006",
     "predeploy": "npm run build-storybook",
-    "build": "build-storybook -c .storybook -o dist"
+    "build": "rollup -c"
   },
   "dependencies": {
     "@storybook/addon-controls": "^6.3.12",
     "@types/classnames": "^2.3.1",
     "@types/react-date-range": "^1.4.4",
+    "date-fns": "^2.30.0",
     "less": "^4.1.1",
     "less-loader": "^11.1.0",
     "react": "^17.0.2",
@@ -30,6 +35,8 @@
     "@babel/preset-typescript": "^7.13.0",
     "@material-ui/core": "^4.11.4",
     "@material-ui/lab": "^4.0.0-alpha.58",
+    "@rollup/plugin-commonjs": "^24.1.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
     "@storybook/addon-docs": "^6.2.9",
     "@storybook/addon-info": "^5.3.21",
     "@storybook/addon-knobs": "^6.4.0",
@@ -43,10 +50,15 @@
     "classnames": "^2.3.2",
     "cross-env": "^7.0.3",
     "html-webpack-plugin": "^5.5.0",
+    "postcss": "^8.4.23",
     "prettier": "^2.3.0",
+    "rollup": "^3.21.3",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.34.1",
     "storybook-svgr-react-component": "^1.0.1",
     "typescript": "^4.1.3"
   },
-  "repository": "",
-  "private": true
+  "repository": "https://github.com/viknain/npm-storybook.git",
+  "private": false
 }

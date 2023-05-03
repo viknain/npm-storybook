@@ -10,7 +10,7 @@ export default {
     },
 } as Meta;
 
-const Template: Story<any> = (args) => <AuthLayoutStory {...args} ><Button category={ButtonCategoryTypes.primary} size={ButtonSizes.large} label="Children"></Button></AuthLayoutStory>;
+const Template: Story<any> = (args) => <AuthLayoutStory {...args} ><Button variant={ButtonCategoryTypes.primary} size={ButtonSizes.large} label="Children"></Button></AuthLayoutStory>;
 
 export const AuthLayout = Template.bind({});
 AuthLayout.args = {
